@@ -3,4 +3,5 @@ openai
 PyPDF2
 pypdf
 langchain
+chromadb
 sentence-transformers
