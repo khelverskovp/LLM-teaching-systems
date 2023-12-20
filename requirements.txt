@@ -3,5 +3,6 @@ openai
 PyPDF2
 pypdf
 langchain
+pysqlite3-binary 
 chromadb
 sentence-transformers
