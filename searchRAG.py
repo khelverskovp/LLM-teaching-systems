@@ -1,11 +1,10 @@
 import os
-import chromadb
 import openai
 
 from langchain.vectorstores import Chroma
 from langchain.embeddings import HuggingFaceEmbeddings
 from langchain.document_transformers import (
-    LongContextReorder,
+    LongContextReorder, 
 )
 from langchain.chains import StuffDocumentsChain, LLMChain
 from langchain.prompts import PromptTemplate

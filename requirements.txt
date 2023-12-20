@@ -2,4 +2,3 @@ streamlit
 openai
 PyPDF2
 langchain
-chromadb

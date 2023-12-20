@@ -1,5 +1,4 @@
 import os
-import chromadb
 from langchain.vectorstores import Chroma
 from langchain.embeddings import HuggingFaceEmbeddings
 from langchain.document_transformers import (
@@ -8,7 +7,7 @@ from langchain.document_transformers import (
 from langchain.chains import StuffDocumentsChain, LLMChain
 from langchain.prompts import PromptTemplate
 from langchain.llms import OpenAI
-
+ 
 # This is a playground for testing the langchain module
 from langchain.document_loaders import PyPDFLoader
 from PyPDF2 import PdfWriter
