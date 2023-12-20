@@ -42,7 +42,7 @@ def main():
     
     # Display conversation
     for idx, message in enumerate(st.session_state.conversation):
-        st.text_area("", message, height=75, key=str(idx))
+        st.markdown(f"**Message {idx + 1}:**\n{message}")
 
     # Show the chat input only after the first response has been received
     if api_key_entered and len(st.session_state.conversation) > 0:
