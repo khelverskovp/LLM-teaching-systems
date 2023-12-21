@@ -42,7 +42,7 @@ Replace aspose-words with the appropriate installation method if necessary. The 
 1. Run the script. You will be prompted to provide input for the educational material's subject and location.
 
    
-   python <script_name>.py
+   python assistantAPI.py
    
 
 2. If the educational material is in a video or audio format, you will be asked for the file path. The script will then transcribe the audio and convert it to PDF format.
