@@ -1,8 +1,10 @@
-# To run the app version of the system locally run app_local.py using "streamlit run app_local.py" 
+To run the app version of the system locally run app_local.py using "streamlit run app_local.py" 
 
-# to visit the deployed version of the app visit: https://llm-teaching-system-app.streamlit.app/ 
+to visit the deployed version of the app visit: https://llm-teaching-system-app.streamlit.app/ 
 
-# Readme for Educational Material Processing Script (assistantAPI.py). This is the script that runs GPT Vision and GPT Whisper as well.
+# Readme for Educational Material Processing Script (assistantAPI.py). 
+
+This is the script that runs GPT Vision and GPT Whisper as well.
 
 ## Overview
 
