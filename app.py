@@ -101,7 +101,7 @@ def run_and_wait(run, thread_id, client):
         time.sleep(1/4)
     return run
 
-def create_assistant_and_thread(subject, document_path, client):
+def create_assistant_and_thread(subject, document_path, client): 
     file = client.files.create(file=open(document_path, "rb"), purpose='assistants')
     assistant = client.beta.assistants.create(
         name="Teacher Assistant",
