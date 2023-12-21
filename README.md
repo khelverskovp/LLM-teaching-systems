@@ -26,8 +26,8 @@ The provided Python script is designed to assist users in analyzing educational 
 Ensure all dependencies are installed using pip:
 
 pip install openai chromadb langchain aspose-words
-
-Replace aspose-words with the appropriate installation method if necessary. The user-defined modules gptFunctions and utils should be present in the same directory as the script or appropriately installed.
+ 
+The user-defined modules gptFunctions and utils should be present in the same directory as the script or appropriately installed.
 
 ## Features
 
@@ -79,7 +79,6 @@ Replace aspose-words with the appropriate installation method if necessary. The 
 - The script utilizes paid services (transcription, embedding, OpenAI API); ensure your account is properly configured for billing.
 - The script assumes you have access to the relevant API endpoints and model versions.
 - The image encoding tool provided in the utils module should be secured and used with caution if handling sensitive information.
-- aspose.words offers a free trial, after which you'll need to purchase a license for continued use or use an alternative method for processing documents.
 
 ## Disclaimer
 
